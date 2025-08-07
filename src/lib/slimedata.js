@@ -21,16 +21,16 @@ const harmfulSlimes = [
 ];
 
 const specialSlimes = [
-    {name: "Quicksilver Slime"},
-    {name: "Glitch Slime"},
-    {name: "Gold Slime"},
-    {name: "Lucky Slime"},
-    {name: "Twinkle Slime"},
+    {name: "Quicksilver Slime", palette: ["#2c3a43", "#3e4851", "#758392", "#b3c8d3"]},
+    {name: "Glitch Slime", palette: ["#e6479c", "#42f5b7", "#45f2e6"]},
+    {name: "Gold Slime", palette: ["#ad5718", "#e68623", "#f9e871"]},
+    {name: "Lucky Slime", palette: ["#b6beb6", "#e0dbcd", "#fff7e9", "#f08a24", "#fddb6c"]},
+    {name: "Twinkle Slime", palette: ["#93dfc3", "#c6fde5", "#fd91a8", "#fad1a7", "#f4ffc9"]},
 ];
 
 const hostileSlimes = [
-    {name: "Feral Slime"},
-    {name: "Tarr Slime"},
+    {name: "Feral Slime", palette: ["#841123", "#63050c", "#fc1d47"]},
+    {name: "Tarr Slime", palette: ["#312421", "#7a6256", "#8e208a", "#30238e", "#2c9377"]},
 ];
 
 export { docileSlimes, harmfulSlimes, specialSlimes, hostileSlimes };
