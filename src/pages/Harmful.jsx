@@ -1,6 +1,8 @@
 function Harmful() {
     return (
-        <></>
+        <>
+            <h1>Harmful Slimes</h1>
+        </>
     );
 }
 

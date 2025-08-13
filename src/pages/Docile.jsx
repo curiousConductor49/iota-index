@@ -1,6 +1,8 @@
 function Docile() {
     return (
-        <></>
+        <>
+            <h1>Docile Slimes</h1>
+        </>
     );
 }
 

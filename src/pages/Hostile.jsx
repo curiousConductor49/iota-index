@@ -1,6 +1,8 @@
 function Hostile() {
     return (
-        <></>
+        <> 
+            <h1>Hostile Slimes</h1>
+        </>
     );
 }
 
