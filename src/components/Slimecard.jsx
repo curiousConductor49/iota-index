@@ -3,7 +3,7 @@ function Slimecard(props) {
         <div>
             <p>Name: {props.name}</p>
             <p>Palette: {props.palette}</p>
-            <img src={props.src}/>
+            <img src={props.src} className="h-[150px] w-[150px]"/>
         </div>
     );
 }
