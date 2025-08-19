@@ -19,7 +19,6 @@ function Docile() {
             {docileImgs.map((img, index) => {
                 return <Slimecard name={docileSlimes[index].name} palette={docileSlimes[index].palette} src={img} key={index}></Slimecard>
             })}
-            {console.log(docileImgs)}
         </>
     );
 }
