@@ -1,3 +1,5 @@
+import { specialSlimes } from "../lib/slimedata";
+
 function Special() {
     return (
         <>

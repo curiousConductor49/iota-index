@@ -1,3 +1,5 @@
+import { hostileSlimes } from "../lib/slimedata";
+
 function Hostile() {
     return (
         <> 

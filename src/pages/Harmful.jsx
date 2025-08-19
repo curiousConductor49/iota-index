@@ -1,3 +1,5 @@
+import { harmfulSlimes } from "../lib/slimedata";
+
 function Harmful() {
     return (
         <>

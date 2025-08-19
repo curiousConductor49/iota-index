@@ -1,3 +1,5 @@
+import { docileSlimes } from "../lib/slimedata";
+
 function Docile() {
     return (
         <>
