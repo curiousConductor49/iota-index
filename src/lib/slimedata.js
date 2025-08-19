@@ -3,7 +3,7 @@ const docileSlimes = [
     {name: "Tabby Slime", palette: ["#545048", "#6c695f", "#a39986", "#352f1c"]},
     {name: "Phosphor Slime", palette: ["#5f5fb3", "#7e7ec2", "#bdbae3", "#b7b9a0", "#f5fc82"]},
     {name: "Honey Slime", palette: ["#2d1702", "#7c3a13", "#b85e03", "#a06300", "#b57c01"]},
-    {name: "Puddle Slime", palette: ["#095d96", "#0a607e", "#29c6d6", "#0c78ab"]},
+    {name: "Puddle Slime", palette: ["#095d96", "#0a607e", "#0c78ab", "#29c6d6"]},
     {name: "Hunter Slime", palette: ["#201a30", "#9a717d", "#2f2342", "#633933", "#dcca2a"]},
     {name: "Quantum Slime", palette: ["#753915", "#a65c19", "#ba8122", "#dfc142", "#fff55b"]},
     {name: "Dervish Slime", palette: ["#4e4b6f", "#928cac", "#764c8b", "#41234f", "#85679a"]},
@@ -30,7 +30,7 @@ const specialSlimes = [
 
 const hostileSlimes = [
     {name: "Feral Slime", palette: ["#841123", "#63050c", "#fc1d47"]},
-    {name: "Tarr Slime", palette: ["#312421", "#7a6256", "#8e208a", "#30238e", "#2c9377"]},
+    {name: "Tarr Slime", palette: ["#312421", "#7a6256", "#8e208a", "#30238e", "#2c9377", "#fafcfa"]},
 ];
 
 export { docileSlimes, harmfulSlimes, specialSlimes, hostileSlimes };
