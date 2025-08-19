@@ -1,12 +1,25 @@
 import Slimecard from "../components/Slimecard";
 import { docileSlimes } from "../lib/slimedata";
 import pink from '../assets/images/docile/Pink_Slime.png'
+import dervish from '../assets/images/docile/Dervish_Slime.png'
+import honey from '../assets/images/docile/Honey_Slime.png'
+import hunter from '../assets/images/docile/Hunter_Slime.png'
+import phosphor from '../assets/images/docile/Phosphor_Slime.png'
+import puddle from '../assets/images/docile/Puddle_Slime.png'
+import quantum from '../assets/images/docile/Quantum_Slime.png'
+import saber from '../assets/images/docile/Saber_Slime.png'
+import tabby from '../assets/images/docile/Tabby_Slime.png'
+import tangle from '../assets/images/docile/Tangle_Slime.png'
 
 function Docile() {
+    const docileImgs = [pink, tabby, phosphor, honey, puddle, hunter, quantum, dervish, tangle, saber];
     return (
         <>
             <h1>Docile Slimes</h1>
-            <Slimecard name={docileSlimes[0].name} palette={docileSlimes[0].palette} src={pink}></Slimecard>
+            {docileImgs.map((img, index) => {
+                return <Slimecard name={docileSlimes[index].name} palette={docileSlimes[index].palette} src={img} key={index}></Slimecard>
+            })}
+            {console.log(docileImgs)}
         </>
     );
 }
