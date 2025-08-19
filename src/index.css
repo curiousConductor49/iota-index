@@ -1,133 +1,133 @@
 @import "tailwindcss";
 
 @theme {
-  --docile-pink-1: #de4367;
-  --docile-pink-2: #f8738e;
-  --docile-pink-3: #d62f45;
+  --color-docile-pink-1: #de4367;
+  --color-docile-pink-2: #f8738e;
+  --color-docile-pink-3: #d62f45;
 
-  --docile-tabby-1: #545048;
-  --docile-tabby-2: #6c695f;
-  --docile-tabby-3: #a39986;
-  --docile-tabby-4: #352f1c;
+  --color-docile-tabby-1: #545048;
+  --color-docile-tabby-2: #6c695f;
+  --color-docile-tabby-3: #a39986;
+  --color-docile-tabby-4: #352f1c;
 
-  --docile-phosphor-1: #5f5fb3;
-  --docile-phosphor-2: #7e7ec2;
-  --docile-phosphor-3: #bdbae3;
-  --docile-phosphor-4: #b7b9a0;
-  --docile-phosphor-5: #f5fc82;
+  --color-docile-phosphor-1: #5f5fb3;
+  --color-docile-phosphor-2: #7e7ec2;
+  --color-docile-phosphor-3: #bdbae3;
+  --color-docile-phosphor-4: #b7b9a0;
+  --color-docile-phosphor-5: #f5fc82;
 
-  --docile-honey-1: #2d1702;
-  --docile-honey-2: #7c3a13;
-  --docile-honey-3: #b85e03;
-  --docile-honey-4: #a06300;
-  --docile-honey-5: #b57c01;
+  --color-docile-honey-1: #2d1702;
+  --color-docile-honey-2: #7c3a13;
+  --color-docile-honey-3: #b85e03;
+  --color-docile-honey-4: #a06300;
+  --color-docile-honey-5: #b57c01;
 
-  --docile-puddle-1: #095d96;
-  --docile-puddle-2: #0a607e;
-  --docile-puddle-3: #0c78ab;
-  --docile-puddle-4: #29c6d6;
+  --color-docile-puddle-1: #095d96;
+  --color-docile-puddle-2: #0a607e;
+  --color-docile-puddle-3: #0c78ab;
+  --color-docile-puddle-4: #29c6d6;
 
-  --docile-hunter-1: #201a30;
-  --docile-hunter-2: #9a717d;
-  --docile-hunter-3: #2f2342;
-  --docile-hunter-4: #633933;
-  --docile-hunter-5: #dcca2a;
+  --color-docile-hunter-1: #201a30;
+  --color-docile-hunter-2: #9a717d;
+  --color-docile-hunter-3: #2f2342;
+  --color-docile-hunter-4: #633933;
+  --color-docile-hunter-5: #dcca2a;
 
-  --docile-quantum-1: #753915;
-  --docile-quantum-2: #a65c19;
-  --docile-quantum-3: #ba8122;
-  --docile-quantum-4: #dfc142;
-  --docile-quantum-5: #fff55b;
+  --color-docile-quantum-1: #753915;
+  --color-docile-quantum-2: #a65c19;
+  --color-docile-quantum-3: #ba8122;
+  --color-docile-quantum-4: #dfc142;
+  --color-docile-quantum-5: #fff55b;
 
-  --docile-dervish-1: #4e4b6f;
-  --docile-dervish-2: #928cac;
-  --docile-dervish-2: #764c8b;
-  --docile-dervish-3: #41234f;
-  --docile-dervish-4: #85679a;
+  --color-docile-dervish-1: #4e4b6f;
+  --color-docile-dervish-2: #928cac;
+  --color-docile-dervish-2: #764c8b;
+  --color-docile-dervish-3: #41234f;
+  --color-docile-dervish-4: #85679a;
 
-  --docile-tangle-1: #186251;
-  --docile-tangle-2: #31a490;
-  --docile-tangle-3: #a2e0c2;
-  --docile-tangle-4: #43581b;
-  --docile-tangle-5: #c7b237;
+  --color-docile-tangle-1: #186251;
+  --color-docile-tangle-2: #31a490;
+  --color-docile-tangle-3: #a2e0c2;
+  --color-docile-tangle-4: #43581b;
+  --color-docile-tangle-5: #c7b237;
 
-  --docile-saber-1: #825d3c;
-  --docile-saber-2: #b88957;
-  --docile-saber-3: #ecbf83;
-  --docile-saber-4: #451b07;
-  --docile-saber-5: #b89d7d;
+  --color-docile-saber-1: #825d3c;
+  --color-docile-saber-2: #b88957;
+  --color-docile-saber-3: #ecbf83;
+  --color-docile-saber-4: #451b07;
+  --color-docile-saber-5: #b89d7d;
 
-  --harmful-rock-1: #002e52;
-  --harmful-rock-2: #034b89;
-  --harmful-rock-3: #1f8fc8;
-  --harmful-rock-4: #324346;
-  --harmful-rock-5: #687374;
+  --color-harmful-rock-1: #002e52;
+  --color-harmful-rock-2: #034b89;
+  --color-harmful-rock-3: #1f8fc8;
+  --color-harmful-rock-4: #324346;
+  --color-harmful-rock-5: #687374;
 
-  --harmful-rad-1: #032c00;
-  --harmful-rad-2: #116711;
-  --harmful-rad-3: #39c958;
-  --harmful-rad-4: #58fd96;
-  --harmful-rad-5: #8bfc04;
+  --color-harmful-rad-1: #032c00;
+  --color-harmful-rad-2: #116711;
+  --color-harmful-rad-3: #39c958;
+  --color-harmful-rad-4: #58fd96;
+  --color-harmful-rad-5: #8bfc04;
 
-  --harmful-boom-1: #6f0700;
-  --harmful-boom-2: #d41700;
-  --harmful-boom-3: #f35d00;
-  --harmful-boom-4: #f85c01;
-  --harmful-boom-5: #fafc03;
+  --color-harmful-boom-1: #6f0700;
+  --color-harmful-boom-2: #d41700;
+  --color-harmful-boom-3: #f35d00;
+  --color-harmful-boom-4: #f85c01;
+  --color-harmful-boom-5: #fafc03;
 
-  --harmful-crystal-1: #3f208c;
-  --harmful-crystal-2: #6a40b2;
-  --harmful-crystal-3: #59a7ee;
-  --harmful-crystal-4: #fffe2c;
-  --harmful-crystal-5: #f33d15;
+  --color-harmful-crystal-1: #3f208c;
+  --color-harmful-crystal-2: #6a40b2;
+  --color-harmful-crystal-3: #59a7ee;
+  --color-harmful-crystal-4: #fffe2c;
+  --color-harmful-crystal-5: #f33d15;
 
-  --harmful-fire-1: #6d140a;
-  --harmful-fire-2: #cc220e;
-  --harmful-fire-3: #f63920;
-  --harmful-fire-4: #feaf17;
-  --harmful-fire-5: #ffcd15;
+  --color-harmful-fire-1: #6d140a;
+  --color-harmful-fire-2: #cc220e;
+  --color-harmful-fire-3: #f63920;
+  --color-harmful-fire-4: #feaf17;
+  --color-harmful-fire-5: #ffcd15;
 
-  --harmful-mosaic-1: #fbb561;
-  --harmful-mosaic-2: #61d388;
-  --harmful-mosaic-3: #27577f;
-  --harmful-mosaic-4: #2537d5;
-  --harmful-mosaic-5: #5036bf;
+  --color-harmful-mosaic-1: #fbb561;
+  --color-harmful-mosaic-2: #61d388;
+  --color-harmful-mosaic-3: #27577f;
+  --color-harmful-mosaic-4: #2537d5;
+  --color-harmful-mosaic-5: #5036bf;
 
-  --hostile-feral-1: #841123;
-  --hostile-feral-2: #63050c;
-  --hostile-feral-3: #fc1d47;
+  --color-hostile-feral-1: #841123;
+  --color-hostile-feral-2: #63050c;
+  --color-hostile-feral-3: #fc1d47;
 
-  --hostile-tarr-1: #312421;
-  --hostile-tarr-2: #7a6256;
-  --hostile-tarr-3: #8e208a;
-  --hostile-tarr-4: #30238e;
-  --hostile-tarr-5: #2c9377;
-  --hostile-tarr-6: #fafcfa;
+  --color-hostile-tarr-1: #312421;
+  --color-hostile-tarr-2: #7a6256;
+  --color-hostile-tarr-3: #8e208a;
+  --color-hostile-tarr-4: #30238e;
+  --color-hostile-tarr-5: #2c9377;
+  --color-hostile-tarr-6: #fafcfa;
 
-  --special-quicksilver-1: #2c3a43;
-  --special-quicksilver-2: #3e4851;
-  --special-quicksilver-3: #758392;
-  --special-quicksilver-4: #b3c8d3;
+  --color-special-quicksilver-1: #2c3a43;
+  --color-special-quicksilver-2: #3e4851;
+  --color-special-quicksilver-3: #758392;
+  --color-special-quicksilver-4: #b3c8d3;
 
-  --special-glitch-1: #e6479c;
-  --special-glitch-2: #42f5b7;
-  --special-glitch-3: #45f2e6;
+  --color-special-glitch-1: #e6479c;
+  --color-special-glitch-2: #42f5b7;
+  --color-special-glitch-3: #45f2e6;
 
-  --special-gold-1: #ad5718;
-  --special-gold-2: #e68623;
-  --special-gold-3: #f9e871;
+  --color-special-gold-1: #ad5718;
+  --color-special-gold-2: #e68623;
+  --color-special-gold-3: #f9e871;
 
-  --special-lucky-1: #b6beb6;
-  --special-lucky-2: #e0dbcd;
-  --special-lucky-3: #fff7e9;
-  --special-lucky-4: #f08a24;
-  --special-lucky-5: #fddb6c;
+  --color-special-lucky-1: #b6beb6;
+  --color-special-lucky-2: #e0dbcd;
+  --color-special-lucky-3: #fff7e9;
+  --color-special-lucky-4: #f08a24;
+  --color-special-lucky-5: #fddb6c;
 
-  --special-twinkle-1: #93dfc3;
-  --special-twinkle-2: #c6fde5;
-  --special-twinkle-3: #fd91a8;
-  --special-twinkle-4: #fad1a7;
-  --special-twinkle-5: #f4ffc9;
+  --color-special-twinkle-1: #93dfc3;
+  --color-special-twinkle-2: #c6fde5;
+  --color-special-twinkle-3: #fd91a8;
+  --color-special-twinkle-4: #fad1a7;
+  --color-special-twinkle-5: #f4ffc9;
 }
 
 /* :root {
