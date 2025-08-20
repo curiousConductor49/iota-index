@@ -17,7 +17,7 @@ function Docile() {
         <>
             <h1>Docile Slimes</h1>
             {docileImgs.map((img, index) => {
-                return <Slimecard name={docileSlimes[index].name} palette={docileSlimes[index].palette} src={img} slimeNum ={index} key={index}></Slimecard>
+                return <Slimecard name={docileSlimes[index].name} src={img} slimeNum ={index} key={index}></Slimecard>
             })}
         </>
     );
