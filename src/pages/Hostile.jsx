@@ -1,15 +1,16 @@
 import Slimecard from "../components/Slimecard";
-import { hostileSlimes } from "../lib/slimedata";
+import slimeIndex from "../lib/slimedata.js";
 import feral from '../assets/images/hostile/Feral_Slime.png'
 import tarr from '../assets/images/hostile/Tarr_Slime.png'
 
 function Hostile() {
     const hostileImgs = [feral, tarr];
+    const slimeCategoryKeys = Object.keys(slimeIndex);
     return (
-        <> 
+        <>
             <h1>Hostile Slimes</h1>
             {hostileImgs.map((img, index) => {
-                return <Slimecard name={hostileSlimes[index].name} palette={hostileSlimes[index].palette} src={img} key={index}></Slimecard>
+                return <Slimecard name={slimeIndex.hostileSlimes[index].name} category={slimeCategoryKeys[3]} src={img} slimeNum ={index} key={index}></Slimecard>
             })}
         </>
     );

@@ -1,5 +1,5 @@
 import Slimecard from "../components/Slimecard";
-import { docileSlimes } from "../lib/slimedata";
+import slimeIndex from "../lib/slimedata.js";
 import pink from '../assets/images/docile/Pink_Slime.png'
 import dervish from '../assets/images/docile/Dervish_Slime.png'
 import honey from '../assets/images/docile/Honey_Slime.png'
@@ -13,11 +13,12 @@ import tangle from '../assets/images/docile/Tangle_Slime.png'
 
 function Docile() {
     const docileImgs = [pink, tabby, phosphor, honey, puddle, hunter, quantum, dervish, tangle, saber];
+    const slimeCategoryKeys = Object.keys(slimeIndex);
     return (
         <>
             <h1>Docile Slimes</h1>
             {docileImgs.map((img, index) => {
-                return <Slimecard name={docileSlimes[index].name} src={img} slimeNum ={index} key={index}></Slimecard>
+                return <Slimecard name={slimeIndex.docileSlimes[index].name} category={slimeCategoryKeys[0]} src={img} slimeNum ={index} key={index}></Slimecard>
             })}
         </>
     );

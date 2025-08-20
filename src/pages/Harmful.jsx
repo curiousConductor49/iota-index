@@ -1,5 +1,5 @@
 import Slimecard from "../components/Slimecard";
-import { harmfulSlimes } from "../lib/slimedata";
+import slimeIndex from "../lib/slimedata.js";
 import rock from '../assets/images/harmful/Rock_Slime.png'
 import rad from '../assets/images/harmful/Rad_Slime.png'
 import boom from '../assets/images/harmful/Boom_Slime.png'
@@ -9,11 +9,12 @@ import mosaic from '../assets/images/harmful/Mosaic_Slime.png'
 
 function Harmful() {
     const harmfulImgs = [rock, rad, boom, crystal, fire, mosaic];
+    const slimeCategoryKeys = Object.keys(slimeIndex);
     return (
         <>
             <h1>Harmful Slimes</h1>
             {harmfulImgs.map((img, index) => {
-                return <Slimecard name={harmfulSlimes[index].name} palette={harmfulSlimes[index].palette} src={img} key={index}></Slimecard>
+                return <Slimecard name={slimeIndex.harmfulSlimes[index].name} category={slimeCategoryKeys[1]} src={img} slimeNum ={index} key={index}></Slimecard>
             })}
         </>
     );
