@@ -1,6 +1,6 @@
 const docileSlimes = [
-    {name: "Pink Slime", palette: ["docile-pink-1", "docile-pink-2", "docile-pink-3"]},
-    {name: "Tabby Slime", palette: ["docile-tabby-1", "docile-tabby-2", "docile-tabby-3", "docile-tabby-4"]},
+    {name: "Pink Slime", palette: ["#de4367", "#f8738e", "#d62f45"]},
+    {name: "Tabby Slime", palette: ["#545048", "#6c695f", "#a39986", "#352f1c"]},
     {name: "Phosphor Slime", palette: ["#5f5fb3", "#7e7ec2", "#bdbae3", "#b7b9a0", "#f5fc82"]},
     {name: "Honey Slime", palette: ["#2d1702", "#7c3a13", "#b85e03", "#a06300", "#b57c01"]},
     {name: "Puddle Slime", palette: ["#095d96", "#0a607e", "#0c78ab", "#29c6d6"]},
