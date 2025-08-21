@@ -11,7 +11,7 @@ function Special() {
     const slimeCategoryKeys = Object.keys(slimeIndex);
     return (
         <>
-            <h1>Special Slimes</h1>
+            <h1 className="text-center font-sans text-4xl m-10">Special Slimes</h1>
             {specialImgs.map((img, index) => {
                 return <Slimecard name={slimeIndex.specialSlimes[index].name} category={slimeCategoryKeys[2]} src={img} slimeNum ={index} key={index}></Slimecard>
             })}
