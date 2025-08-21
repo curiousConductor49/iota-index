@@ -2,12 +2,19 @@ import slimeIndex from '../lib/slimedata.js'
 
 function Slimecard(props) {
     return (
-        <div>
-            <p>Name: {props.name}</p>
-            <div className="flex flex-row">Palette: {slimeIndex[props.category][props.slimeNum].palette.map((colour, index) => {
-                return <div className="w-[50px] h-[150px]" style={{backgroundColor: colour }} key={index}></div>
+        <div className="border-2 border-red-400 rounded-md w-xl m-auto flex flex-col justify-center items-center p-10">
+            <div className="flex flex-row gap-5">
+                <img src={props.src} className="h-[150px] w-[150px]"/>
+                <div className="self-center flex flex-row items-center gap-2">
+                    <div className="bg-red-400 text-5xl w-[3px] h-[60px]"></div>
+                    <p className="font-semibold text-2xl">Name:</p>
+                    <p className="text-2xl" style={{color: slimeIndex[props.category][props.slimeNum].palette[0] }}>{props.name}</p>
+                </div>
+            </div>
+            <p className="font-semibold text-lg">Palette: </p>
+            <div className="flex flex-row flex-wrap">{slimeIndex[props.category][props.slimeNum].palette.map((colour, index) => {
+                return <div style={{backgroundColor: colour, borderRadius: 5, margin: 5, padding: 10, flexGrow: 1, color: "white"}} key={index}>{colour}</div>
             })}</div>
-            <img src={props.src} className="h-[150px] w-[150px]"/>
         </div>
     );
 }
