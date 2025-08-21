@@ -12,9 +12,12 @@ function Special() {
     return (
         <>
             <h1 className="text-center font-sans text-4xl m-10">Special Slimes</h1>
-            {specialImgs.map((img, index) => {
-                return <Slimecard name={slimeIndex.specialSlimes[index].name} category={slimeCategoryKeys[2]} src={img} slimeNum ={index} key={index}></Slimecard>
-            })}
+            <div className="flex flex-col gap-5 items-center">
+               {specialImgs.map((img, index) => {
+                    return <Slimecard name={slimeIndex.specialSlimes[index].name} category={slimeCategoryKeys[2]} src={img} slimeNum ={index} key={index}></Slimecard>
+                })}
+            </div>
+            
         </>
     );
 }

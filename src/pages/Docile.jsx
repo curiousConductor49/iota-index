@@ -17,9 +17,12 @@ function Docile() {
     return (
         <>
             <h1 className="text-center font-sans text-4xl m-10">Docile Slimes</h1>
-            {docileImgs.map((img, index) => {
-                return <Slimecard name={slimeIndex.docileSlimes[index].name} category={slimeCategoryKeys[0]} src={img} slimeNum ={index} key={index}></Slimecard>
-            })}
+            <div className="flex flex-col gap-5 items-center">
+                {docileImgs.map((img, index) => {
+                    return <Slimecard name={slimeIndex.docileSlimes[index].name} category={slimeCategoryKeys[0]} src={img} slimeNum ={index} key={index}></Slimecard>
+                })}
+            </div>
+            
         </>
     );
 }

@@ -13,9 +13,12 @@ function Harmful() {
     return (
         <>
             <h1 className="text-center font-sans text-4xl m-10">Harmful Slimes</h1>
-            {harmfulImgs.map((img, index) => {
-                return <Slimecard name={slimeIndex.harmfulSlimes[index].name} category={slimeCategoryKeys[1]} src={img} slimeNum ={index} key={index}></Slimecard>
-            })}
+            <div className="flex flex-col gap-5 items-center">
+                {harmfulImgs.map((img, index) => {
+                    return <Slimecard name={slimeIndex.harmfulSlimes[index].name} category={slimeCategoryKeys[1]} src={img} slimeNum ={index} key={index}></Slimecard>
+                })}
+            </div>
+            
         </>
     );
 }
