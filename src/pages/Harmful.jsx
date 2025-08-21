@@ -17,8 +17,7 @@ function Harmful() {
                 {harmfulImgs.map((img, index) => {
                     return <Slimecard name={slimeIndex.harmfulSlimes[index].name} category={slimeCategoryKeys[1]} src={img} slimeNum ={index} key={index}></Slimecard>
                 })}
-            </div>
-            
+            </div> 
         </>
     );
 }

@@ -13,8 +13,7 @@ function Hostile() {
                 {hostileImgs.map((img, index) => {
                     return <Slimecard name={slimeIndex.hostileSlimes[index].name} category={slimeCategoryKeys[3]} src={img} slimeNum ={index} key={index}></Slimecard>
                 })}
-            </div>
-            
+            </div>       
         </>
     );
 }

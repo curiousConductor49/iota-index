@@ -22,7 +22,6 @@ function Docile() {
                     return <Slimecard name={slimeIndex.docileSlimes[index].name} category={slimeCategoryKeys[0]} src={img} slimeNum ={index} key={index}></Slimecard>
                 })}
             </div>
-            
         </>
     );
 }

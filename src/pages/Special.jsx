@@ -17,7 +17,6 @@ function Special() {
                     return <Slimecard name={slimeIndex.specialSlimes[index].name} category={slimeCategoryKeys[2]} src={img} slimeNum ={index} key={index}></Slimecard>
                 })}
             </div>
-            
         </>
     );
 }
