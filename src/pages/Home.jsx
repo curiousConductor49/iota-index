@@ -4,7 +4,7 @@ function Home() {
     return (
         <>
             <h1 className="text-center font-fascinate text-5xl mt-20 m-10">Welcome to the Iota Index</h1>
-            <h2 className="text-center font-zain text-4xl text-red-400"> A Slime Rancher Fan Project</h2>
+            <h2 className="text-center font-fascinate text-3xl text-red-400"> A Slime Rancher Fan Project</h2>
             <div className="font-zain flex flex-col gap-3 m-auto mt-10 mb-20 text-3xl max-w-3xl">
                 <p className="text-center">Howdy, rancher!</p>
                 <p className="text-center">Have you ever wanted to know the wonderful colours of your wonderful slimes?</p>
