@@ -28,7 +28,7 @@ const slimeIndex = {
     ],
     hostileSlimes: [
         {name: "Feral Slime", palette: ["#841123", "#63050c", "#fc1d47"]},
-        {name: "Tarr Slime", palette: ["#312421", "#7a6256", "#8e208a", "#30238e", "#2c9377", "#fafcfa"]},
+        {name: "Tarr Slime", palette: ["#312421", "#7a6256", "#8e208a", "#30238e", "#2c9377"]},
     ]
 }
 
