@@ -8,7 +8,7 @@ function Hostile() {
     const slimeCategoryKeys = Object.keys(slimeIndex);
     return (
         <>
-            <h1 className="text-center font-sans text-4xl m-10">Hostile Slimes</h1>
+            <h1 className="text-center font-fascinate text-4xl m-10">Hostile Slimes</h1>
             <div className="flex flex-col gap-5 items-center">
                 {hostileImgs.map((img, index) => {
                     return <Slimecard name={slimeIndex.hostileSlimes[index].name} category={slimeCategoryKeys[3]} src={img} slimeNum ={index} key={index}></Slimecard>

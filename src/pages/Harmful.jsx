@@ -12,7 +12,7 @@ function Harmful() {
     const slimeCategoryKeys = Object.keys(slimeIndex);
     return (
         <>
-            <h1 className="text-center font-sans text-4xl m-10">Harmful Slimes</h1>
+            <h1 className="text-center font-fascinate text-4xl m-10">Harmful Slimes</h1>
             <div className="flex flex-col gap-5 items-center">
                 {harmfulImgs.map((img, index) => {
                     return <Slimecard name={slimeIndex.harmfulSlimes[index].name} category={slimeCategoryKeys[1]} src={img} slimeNum ={index} key={index}></Slimecard>
