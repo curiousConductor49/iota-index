@@ -6,7 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   build: {
-    outDir: "build",
+    outDir: "dist",
   },
-  base: "/iota-index/",
+  base: "/iota-index",
 })
