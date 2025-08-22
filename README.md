@@ -2,7 +2,7 @@
 A simple one-pager site built in React and Tailwind using Vite. It uses data stored in a local js file to organize and display the names, images, and colour palettes of various slimes from the sci-fi farm life sim video game "Slime Rancher".
 
 ## Site Deployment
-Visit the site here: `https://curiousconductor49.github.io/iota-index/`
+Visit the site here: [https://curiousconductor49.github.io/iota-index/](https://curiousconductor49.github.io/iota-index/)
 
 ## Local Setup
 Be sure to have npm and node.js installed on your machine first!
