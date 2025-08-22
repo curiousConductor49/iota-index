@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://curiousConductor49.github.io/iota-index",
+  "homepage": "https://curiousConductor49.github.io/iota-index/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
