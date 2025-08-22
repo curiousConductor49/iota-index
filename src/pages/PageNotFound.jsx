@@ -2,8 +2,9 @@ import { useEffect } from 'react'
 import { useNavigate } from 'react-router'
 
 function NotFound() {
+    // Use the useNavigate hook to redirect user to a select page
     const navigate = useNavigate();
-
+    // Wrap a setTimeout function within the useEffect hook to redirect user after 4000 milliseconds
     useEffect(() => {
         setTimeout(() => {
             navigate("/")
