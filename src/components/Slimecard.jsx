@@ -6,7 +6,7 @@ function Slimecard(props) {
     // props.src provides slime img url
     // props.category provides key for each nested object containing the slimes per category
     // props.slimeNum provides the index of each slime object inside the category property (whose value is an array)
-    // key provides a unique identifier for each generated div; this is technically the same value as props.slimeNum, but is saved as a different prop as its purpose is different
+    // key provides a unique identifier for each generated div; this is technically the same value as props.slimeNum, but is saved as a different prop as keys cannot be passed as props
     return (
         <div className="border-2 border-red-400 rounded-md w-xl flex flex-col justify-center items-center p-10">
             <div className="flex flex-row gap-5">
