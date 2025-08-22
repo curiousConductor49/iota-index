@@ -12,12 +12,18 @@ import tabby from '../assets/images/docile/Tabby_Slime.png'
 import tangle from '../assets/images/docile/Tangle_Slime.png'
 
 function Docile() {
+    // Create an array of image imports indexed in the same order as the slime category's array elements
     const docileImgs = [pink, tabby, phosphor, honey, puddle, hunter, quantum, dervish, tangle, saber];
+    // Create an array of property keys for the slime index import
     const slimeCategoryKeys = Object.keys(slimeIndex);
     return (
         <>
             <h1 className="text-center font-fascinate text-4xl m-10">Docile Slimes</h1>
             <div className="flex flex-col gap-5 items-center">
+                {/* 
+                Walk over the img import array and use index to access the right slime category's slimes
+                Pass props to the slimecard component: name, category, slimeNum
+                */}
                 {docileImgs.map((img, index) => {
                     return <Slimecard name={slimeIndex.docileSlimes[index].name} category={slimeCategoryKeys[0]} src={img} slimeNum ={index} key={index}></Slimecard>
                 })}
